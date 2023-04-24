@@ -1,0 +1,26 @@
+<div class='container-fluid'>
+  <div class='row'>
+    <div class='col-md-12 py-3'>
+      <h1>Clientes</h1>
+    </div>
+    <div class='col-md-3'>
+      {{> ClientsForm }}
+    </div>
+    <div class='col-md-9'>
+      <div class='table-responsive'>
+        <table class='table table-hover table-bordered align-middle'>
+          <thead class='table-secondary'>
+            <th scope='col'>Nombre</th>
+            <th scope='col'>Apellido</th>
+            <th scope='col'>Pais</th>
+            <th scope='col'>Correo</th>
+            <th scope='col'>Telefono</th>
+            <th scope='col'>Fecha registro</th>
+            <th scope='col'>Acciones</th>
+          </thead>
+          <tbody id='clientsTable'></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<form id='clientsForm' data-updateclient='false' data-idclient='' class='px-3'>
+  <div class='mb-3'>
+    <input
+      type='text'
+      class='clientFormFirstName form-control'
+      name='firstName'
+      placeholder='Nombre'
+    />
+  </div>
+  <div class='mb-3'>
+    <input
+      type='text'
+      class='clientFormLastName form-control'
+      name='lastName'
+      placeholder='Apellido'
+    />
+  </div>
+  <div class='mb-3'>
+    <input type='text' class='clientFormCountry form-control' name='country' placeholder='Pais' />
+  </div>
+  <div class='mb-3'>
+    <input type='text' class='clientFormEmail form-control' name='email' placeholder='Correo' />
+  </div>
+  <div class='mb-3'>
+    <input type='text' class='clientFormPhone form-control' name='phone' placeholder='Telefono' />
+  </div>
+  <div class='mb-3'>
+    <div class='form-floating'>
+      <input
+        type='date'
+        class='clientFormRegDate form-control'
+        name='regDate'
+        id='floatingRegDate'
+        placeholder='Fecha Registro'
+      />
+      <label for='floatingRegDate'>Fecha de registro</label>
+    </div>
+  </div>
+
+  <div class='d-grid gap-2'>
+    <button type='submit' class='btn btn-primary'>Guardar cliente</button>
+  </div>
+</form>
